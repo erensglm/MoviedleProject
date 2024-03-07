@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1180.0" style="-fx-background-color: #A13941FF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vcs.testvcs1.Controller">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="198.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="196.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label alignment="BOTTOM_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="91.0" prefWidth="552.0" text="MOVIDLE" textAlignment="CENTER" textFill="#bd7f37" wrapText="true" GridPane.columnIndex="4">
+         <font>
+            <Font name="Franklin Gothic Demi" size="61.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="867.0" spacing="30.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <children>
+            <Label fx:id="lblTitle" alignment="CENTER" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblYear" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGenre" alignment="CENTER" layoutX="120.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrigin" alignment="CENTER" layoutX="230.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDirector" alignment="CENTER" layoutX="340.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStar" alignment="CENTER" layoutX="450.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets top="40.0" />
+         </GridPane.margin>
+      </HBox>
+      <TextField fx:id="txtGuess" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onGuessButton" prefHeight="35.0" prefWidth="634.0" promptText="GUESS HERE" style="-fx-background-color: #fcf6b1;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin></TextField>
+      <Button fx:id="onGuessButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onGuessButton" prefHeight="35.0" prefWidth="160.0" style="-fx-background-color: #fcf6b1;" text="GUESS" textAlignment="CENTER" textFill="#a13941" GridPane.columnIndex="11" GridPane.rowIndex="2">
+         <font>
+            <Font name="Franklin Gothic Medium" size="13.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="-20.0" />
+         </GridPane.margin>
+      </Button>
+      <HBox alignment="CENTER" layoutX="85.0" layoutY="278.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="868.0" spacing="30.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <children>
+            <Label fx:id="lblTitle1" alignment="CENTER" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblYear1" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGenre1" alignment="CENTER" layoutX="120.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrigin1" alignment="CENTER" layoutX="230.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDirector1" alignment="CENTER" layoutX="340.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStar1" alignment="CENTER" layoutX="450.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets top="60.0" />
+         </GridPane.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="85.0" layoutY="278.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="868.0" spacing="30.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+         <children>
+            <Label fx:id="lblTitle2" alignment="CENTER" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblYear2" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGenre2" alignment="CENTER" layoutX="120.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrigin2" alignment="CENTER" layoutX="230.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDirector2" alignment="CENTER" layoutX="340.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStar2" alignment="CENTER" layoutX="450.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets top="80.0" />
+         </GridPane.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="85.0" layoutY="515.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="867.0" spacing="30.0" GridPane.columnIndex="2" GridPane.rowIndex="11">
+         <children>
+            <Label fx:id="lblTitle3" alignment="CENTER" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblYear3" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGenre3" alignment="CENTER" layoutX="120.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrigin3" alignment="CENTER" layoutX="230.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDirector3" alignment="CENTER" layoutX="340.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStar3" alignment="CENTER" layoutX="450.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets top="100.0" />
+         </GridPane.margin>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="85.0" layoutY="647.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="867.0" spacing="30.0" GridPane.columnIndex="2" GridPane.rowIndex="13">
+         <children>
+            <Label fx:id="lblTitle4" alignment="CENTER" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblYear4" alignment="CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGenre4" alignment="CENTER" layoutX="120.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrigin4" alignment="CENTER" layoutX="230.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDirector4" alignment="CENTER" layoutX="340.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblStar4" alignment="CENTER" layoutX="450.0" layoutY="10.0" minWidth="-Infinity" prefHeight="110.0" prefWidth="130.0" style="-fx-background-color: #BD7F37FF;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Franklin Gothic Medium Cond" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets top="120.0" />
+         </GridPane.margin>
+      </HBox>
+      <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="GUESS IMDB TOP 250 MOVIES" textAlignment="CENTER" textFill="#fcf6b1" wrapText="true" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="autoCompleteListView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="635.0" style="-fx-background-radius: 20;" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets bottom="-10.0" left="20.0" />
+         </GridPane.margin>
+      </ListView>
+   </children>
+</GridPane>
